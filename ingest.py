@@ -4,7 +4,7 @@ from langchain.vectorstores import FAISS
 from langchain.text_splitter import CharacterTextSplitter
 
 # Load documents
-loader = TextLoader("data.txt")
+loader = TextLoader("data\data.txt")
 documents = loader.load()
 
 # Split documents into chunks
